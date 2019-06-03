@@ -22,7 +22,7 @@ int Core::build() {
 
 
     std::cout << "[" << this->getCurrentTime() << "] " << "Build start..." << std::endl;
-    Sleep(3000);
+    Sleep(2000);
     std::cout << "[" << this->getCurrentTime() << "]" << " Build finished!" << std::endl;
     return 0;
 }
@@ -30,6 +30,7 @@ int Core::build() {
 char *Core::getCurrentTime() {
     auto start = std::chrono::system_clock::now();
     auto end = std::chrono::system_clock::now();
+
     std::chrono::duration<double> elapsed_seconds = end-start;
     std::time_t end_time = std::chrono::system_clock::to_time_t(end);
 
