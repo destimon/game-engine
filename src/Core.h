@@ -5,6 +5,7 @@
 #ifndef UNTITLED_CORE_H
 #define UNTITLED_CORE_H
 
+#include "sfx/sfxCore.h"
 
 class Core {
 public:
@@ -13,6 +14,11 @@ public:
 
     int build();
     char* getCurrentTime();
+    int core_playsound();
+    const sfxCore &getC_sfx() ;
+
+private:
+    sfxCore c_sfx;
 };
 
 

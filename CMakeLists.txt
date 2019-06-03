@@ -3,4 +3,8 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp src/Core.cpp src/Core.h)
+add_executable(untitled main.cpp src/Core.cpp src/Core.h src/sfx/sfxCore.cpp src/sfx/sfxCore.h)
+
+target_link_libraries(untitled winmm.lib)
+
+#target_link_libraries(untitled4 SDL2.lib SDL2main.lib)

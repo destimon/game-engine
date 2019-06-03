@@ -176,6 +176,33 @@ src/Core.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/Core.cpp.s
 .PHONY : src/Core.cpp.s
 
+src/sfx/sfxCore.obj: src/sfx/sfxCore.cpp.obj
+
+.PHONY : src/sfx/sfxCore.obj
+
+# target to build an object file
+src/sfx/sfxCore.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj
+.PHONY : src/sfx/sfxCore.cpp.obj
+
+src/sfx/sfxCore.i: src/sfx/sfxCore.cpp.i
+
+.PHONY : src/sfx/sfxCore.i
+
+# target to preprocess a source file
+src/sfx/sfxCore.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.i
+.PHONY : src/sfx/sfxCore.cpp.i
+
+src/sfx/sfxCore.s: src/sfx/sfxCore.cpp.s
+
+.PHONY : src/sfx/sfxCore.s
+
+# target to generate assembly for a file
+src/sfx/sfxCore.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.s
+.PHONY : src/sfx/sfxCore.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +218,9 @@ help:
 	@echo ... src/Core.obj
 	@echo ... src/Core.i
 	@echo ... src/Core.s
+	@echo ... src/sfx/sfxCore.obj
+	@echo ... src/sfx/sfxCore.i
+	@echo ... src/sfx/sfxCore.s
 .PHONY : help
 
 

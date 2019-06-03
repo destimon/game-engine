@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/main.cpp.obj"
   "CMakeFiles/untitled.dir/src/Core.cpp.obj"
+  "CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj"
   "untitled.pdb"
   "untitled.exe"
   "untitled.exe.manifest"

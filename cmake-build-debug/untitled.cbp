@@ -89,6 +89,12 @@
 		<Unit filename="C:/Users/desta/CLionProjects/untitled/src/Core.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="C:/Users/desta/CLionProjects/untitled/src/sfx/sfxCore.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/desta/CLionProjects/untitled/src/sfx/sfxCore.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="C:/Users/desta/CLionProjects/untitled/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

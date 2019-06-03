@@ -12,7 +12,9 @@
 #include <time.h>
 #include <windows.h>
 
-Core::Core() {}
+Core::Core() {
+
+}
 
 Core::~Core() {
 
@@ -35,4 +37,15 @@ char *Core::getCurrentTime() {
     std::time_t end_time = std::chrono::system_clock::to_time_t(end);
 
     return (strtok(std::ctime(&end_time), "\n"));
+}
+
+const sfxCore &Core::getC_sfx()  {
+    std::cout << "[" << this->getCurrentTime() << "] " << "(CORE) Get SFX function" << std::endl;
+    return c_sfx;
+}
+
+int Core::core_playsound() {
+    std::cout << "[" << this->getCurrentTime() << "] " << "(CORE) Play sound" << std::endl;
+    c_sfx.playSound();
+    return 0;
 }
