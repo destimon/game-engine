@@ -1,12 +1,13 @@
-#include <iostream>
+#include<GL/freeglut.h>
 #include "src/Core.h"
-#include "src/sfx/sfxCore.h"
 
-int main() {
+int main(int argc,char **argv)
+{
     Core cr;
+    Graphics gfx;
 
-    cr.build();
+    gfx = cr.getGfx();
     cr.core_playsound();
-    getchar();
+    gfx.init(&argc, argv);
     return 0;
 }

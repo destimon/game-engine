@@ -6,6 +6,7 @@
 #define UNTITLED_CORE_H
 
 #include "sfx/sfxCore.h"
+#include "graphics/Graphics.h"
 
 class Core {
 public:
@@ -17,7 +18,10 @@ public:
     int core_playsound();
     const sfxCore &getC_sfx() ;
 
+    const Graphics &getGfx() const;
+
 private:
+    Graphics gfx;
     sfxCore c_sfx;
 };
 

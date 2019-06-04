@@ -176,6 +176,33 @@ src/Core.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/Core.cpp.s
 .PHONY : src/Core.cpp.s
 
+src/graphics/Graphics.obj: src/graphics/Graphics.cpp.obj
+
+.PHONY : src/graphics/Graphics.obj
+
+# target to build an object file
+src/graphics/Graphics.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj
+.PHONY : src/graphics/Graphics.cpp.obj
+
+src/graphics/Graphics.i: src/graphics/Graphics.cpp.i
+
+.PHONY : src/graphics/Graphics.i
+
+# target to preprocess a source file
+src/graphics/Graphics.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.i
+.PHONY : src/graphics/Graphics.cpp.i
+
+src/graphics/Graphics.s: src/graphics/Graphics.cpp.s
+
+.PHONY : src/graphics/Graphics.s
+
+# target to generate assembly for a file
+src/graphics/Graphics.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.s
+.PHONY : src/graphics/Graphics.cpp.s
+
 src/sfx/sfxCore.obj: src/sfx/sfxCore.cpp.obj
 
 .PHONY : src/sfx/sfxCore.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... src/Core.obj
 	@echo ... src/Core.i
 	@echo ... src/Core.s
+	@echo ... src/graphics/Graphics.obj
+	@echo ... src/graphics/Graphics.i
+	@echo ... src/graphics/Graphics.s
 	@echo ... src/sfx/sfxCore.obj
 	@echo ... src/sfx/sfxCore.i
 	@echo ... src/sfx/sfxCore.s

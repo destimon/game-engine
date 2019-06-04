@@ -24,7 +24,10 @@ int Core::build() {
 
 
     std::cout << "[" << this->getCurrentTime() << "] " << "Build start..." << std::endl;
-    Sleep(2000);
+    std::cout << "[" << this->getCurrentTime() << "] " << "(GRAPHICS) init." << std::endl;
+//    gfx.init();
+    std::cout << "[" << this->getCurrentTime() << "] " << "(GRAPHICS) create window." << std::endl;
+//    gfx.createWindow();
     std::cout << "[" << this->getCurrentTime() << "]" << " Build finished!" << std::endl;
     return 0;
 }
@@ -48,4 +51,8 @@ int Core::core_playsound() {
     std::cout << "[" << this->getCurrentTime() << "] " << "(CORE) Play sound" << std::endl;
     c_sfx.playSound();
     return 0;
+}
+
+const Graphics &Core::getGfx() const {
+    return gfx;
 }

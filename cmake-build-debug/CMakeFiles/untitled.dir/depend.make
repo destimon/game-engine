@@ -3,13 +3,19 @@
 
 CMakeFiles/untitled.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/untitled.dir/main.cpp.obj: ../src/Core.h
+CMakeFiles/untitled.dir/main.cpp.obj: ../src/graphics/Graphics.h
 CMakeFiles/untitled.dir/main.cpp.obj: ../src/sfx/sfxCore.h
 
 CMakeFiles/untitled.dir/src/Core.cpp.obj: ../src/Core.cpp
 CMakeFiles/untitled.dir/src/Core.cpp.obj: ../src/Core.h
+CMakeFiles/untitled.dir/src/Core.cpp.obj: ../src/graphics/Graphics.h
 CMakeFiles/untitled.dir/src/Core.cpp.obj: ../src/sfx/sfxCore.h
 
+CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj: ../src/graphics/Graphics.cpp
+CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj: ../src/graphics/Graphics.h
+
 CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj: ../src/Core.h
+CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj: ../src/graphics/Graphics.h
 CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj: ../src/sfx/sfxCore.cpp
 CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj: ../src/sfx/sfxCore.h
 

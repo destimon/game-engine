@@ -57,6 +57,7 @@ include CMakeFiles/untitled.dir/progress.make
 include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
 CMakeFiles/untitled.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\desta\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\main.cpp.obj -c C:\Users\desta\CLionProjects\untitled\main.cpp
@@ -70,6 +71,7 @@ CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\desta\CLionProjects\untitled\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
 
 CMakeFiles/untitled.dir/src/Core.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/Core.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
 CMakeFiles/untitled.dir/src/Core.cpp.obj: ../src/Core.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\desta\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/src/Core.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\src\Core.cpp.obj -c C:\Users\desta\CLionProjects\untitled\src\Core.cpp
@@ -83,6 +85,7 @@ CMakeFiles/untitled.dir/src/Core.cpp.s: cmake_force
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\desta\CLionProjects\untitled\src\Core.cpp -o CMakeFiles\untitled.dir\src\Core.cpp.s
 
 CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
 CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj: ../src/sfx/sfxCore.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\desta\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\src\sfx\sfxCore.cpp.obj -c C:\Users\desta\CLionProjects\untitled\src\sfx\sfxCore.cpp
@@ -95,11 +98,26 @@ CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\desta\CLionProjects\untitled\src\sfx\sfxCore.cpp -o CMakeFiles\untitled.dir\src\sfx\sfxCore.cpp.s
 
+CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj: CMakeFiles/untitled.dir/includes_CXX.rsp
+CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj: ../src/graphics/Graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\desta\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\src\graphics\Graphics.cpp.obj -c C:\Users\desta\CLionProjects\untitled\src\graphics\Graphics.cpp
+
+CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\desta\CLionProjects\untitled\src\graphics\Graphics.cpp > CMakeFiles\untitled.dir\src\graphics\Graphics.cpp.i
+
+CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\desta\CLionProjects\untitled\src\graphics\Graphics.cpp -o CMakeFiles\untitled.dir\src\graphics\Graphics.cpp.s
+
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.obj" \
 "CMakeFiles/untitled.dir/src/Core.cpp.obj" \
-"CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj"
+"CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj" \
+"CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -107,11 +125,12 @@ untitled_EXTERNAL_OBJECTS =
 untitled.exe: CMakeFiles/untitled.dir/main.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/src/Core.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/src/sfx/sfxCore.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/src/graphics/Graphics.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\desta\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\desta\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
